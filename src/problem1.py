@@ -126,7 +126,19 @@ def run_test_problem1a():
     # TO DO: 2 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
+    # Test 3:
+    expected = -.919  # This is APPROXIMATELY the correct answer.
+    answer = problem1a(4, 40)
+    print()
+    print('Test 3 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
 
+    # Test 4:
+    expected = -.2237  # This is APPROXIMATELY the correct answer.
+    answer = problem1a(8, 10)
+    print()
+    print('Test 4 expected:', expected, '(approximately)')
+    print('       actual:  ', answer)
 
 def problem1a(m, n):
     """
@@ -355,4 +367,6 @@ def problem1c(n):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
+
 main()
